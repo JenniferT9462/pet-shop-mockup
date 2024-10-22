@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 // TODO: update this component to match the design in public/mockups/amigo-counter.png
 export default function PetCounter(props) {
-  const { images, count } = props;
+  const { images, numberOfPets } = props;
   return (
     <div className="bg-rose-500">
       <div className="todo-update-this-class">

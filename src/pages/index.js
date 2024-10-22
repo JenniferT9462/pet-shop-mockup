@@ -15,7 +15,7 @@ export default function Home() {
         </div>
         <main className="mt-10 flex">
           <section className="w-1/2">
-            <PetCounter images={["/img/dog-mini-1.png", "/img/cat-mini-1.png", "/img/dog-mini-2.png", "/img/cat-mini-2.png"]} count={324} />
+            <PetCounter images={["/img/dog-mini-1.png", "/img/cat-mini-1.png", "/img/dog-mini-2.png", "/img/cat-mini-2.png"]} numberOfPets={324} />
           </section>
           <section className="w-1/2 flex flex-col">
             <PetHeroImage src="/img/hero-dog.png" />
