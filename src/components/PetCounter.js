@@ -14,7 +14,7 @@ export default function PetCounter(props) {
               className="-ml-3" />
         ))}
       </div>
-      <span className="italic">TODO: UPDATE THIS MESSAGE</span>
+      <span className="italic">{numberOfPets} <strong>Friends</strong> for life!</span>
     </div>
   );
 };
