@@ -5,8 +5,8 @@ import PropTypes from 'prop-types';
 // The image is located in public/img/hero-dog.png
 export default function PetHeroImage (props) {
   return (
-    <div>
-      <img src={props.src}></img>
+    <div className='bg-gradient-to-bl from-rose-400 rounded-2xl'>
+      <img className="" alt="Dog" src={props.src}></img>
     </div>
   );
 };
