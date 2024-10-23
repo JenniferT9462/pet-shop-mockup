@@ -3,6 +3,7 @@ import PetHeaderMenu from '../components/PetHeaderMenu';
 import PetCounter from '../components/PetCounter';
 import PetHeroImage from '../components/PetHeroImage';
 import PetCallToAction from '../components/PetCallToAction';
+import HeroText from '../components/HeroText';
 
 export default function Home() {
 
@@ -27,6 +28,7 @@ export default function Home() {
           TODO...
         </h1>
         <p>
+          <HeroText />
           Add all your finished components to create a website that looks like the top (pink) part of this image. Work on the components. Create stories for them in storybook. Test them. Make sure they are working as expected. Then, add them to this page.
         </p>
         <p>
