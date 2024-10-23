@@ -8,6 +8,6 @@ export default meta;
 
 export const Default = {
   args: {
-    src: "public/img/hero-dog.png"
+    src: "img/hero-dog.png"
   }
 };
