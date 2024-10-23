@@ -33,3 +33,24 @@ export const HotDog = {
     brandName: "HotDiggityDog"
   }
 };
+
+export const Furries = {
+  args: {
+    logoSrc: "img/paw-face-sm.png",
+    brandName: "FurryFriends"
+  }
+};
+
+export const Poochies = {
+  args: {
+    logoSrc: "img/paw-face-sm.png",
+    brandName: "PoochHub"
+  }
+};
+
+export const GOD = {
+  args: {
+    logoSrc: "img/paw-face-sm.png",
+    brandName: "GameOfDogs"
+  }
+};
