@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 export default function PetHeroImage (props) {
   return (
     <div className='bg-gradient-to-bl from-rose-400 rounded-2xl'>
-      <img className="" alt="Dog" src={props.src}></img>
+      <img className="-mt-40" alt="Dog" src={props.src}></img>
     </div>
   );
 };
