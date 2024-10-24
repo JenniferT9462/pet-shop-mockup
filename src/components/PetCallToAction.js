@@ -2,8 +2,8 @@ import PropTypes from "prop-types";
 
 export default function PetCallToAction(props) {
   return (
-    <div className="rounded-full border-8 border-rose-600 w-100">
-      <button className="bg-white text-blue-900 font-bold py-2 px-4 rounded-full w-full">Access Now</button>
+    <div className="rounded-xl  flex justify-center bg-rose-700 p-2 items-center">
+      <button className="bg-white text-blue-900 font-semibold p-2 w-5/6 rounded-lg m-2">Access Now</button>
     </div>
   );
 }
