@@ -19,17 +19,17 @@ export default function Home() {
             <PetCounter images={["/img/dog-mini-1.png", "/img/cat-mini-1.png", "/img/dog-mini-2.png", "/img/cat-mini-2.png"]} numberOfPets={324} />
           </section>
           <section className="w-1/2 flex flex-col">
+            <HeroText heroText="Levea felicidade para o seu lar ncontre o animal de estimação ideal para seu estilo de vida!" />
             <PetHeroImage src="/img/hero-dog.png" />
             <PetCallToAction ctaText="Acesse agora"/>
           </section>
 
         </main>
         <h1 className="text-2xl mt-8">
-          TODO...
+        
         </h1>
         <p>
-          <HeroText />
-          Add all your finished components to create a website that looks like the top (pink) part of this image. Work on the components. Create stories for them in storybook. Test them. Make sure they are working as expected. Then, add them to this page.
+        
         </p>
         <p>
           When complete, work on the bottom (white) part of the image. Create a new page for it at `about.js`. Add the components you need to create the page. Test them. Make sure they are working as expected. Then, add them to the new page. (Be sure to use PropTypes so storybook can help you test your components.)
