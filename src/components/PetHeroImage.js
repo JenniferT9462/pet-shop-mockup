@@ -11,6 +11,6 @@ export default function PetHeroImage (props) {
   );
 };
 
-PetHeroImage.propTypes = {
+PetHeroImage.PropTypes = {
   src: PropTypes.string.isRequired,
 };
