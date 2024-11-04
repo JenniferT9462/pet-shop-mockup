@@ -43,9 +43,9 @@ Open [http://localhost:6006](http://localhost:6006) with your browser to see the
 - [x] Commit after each component (with stories) is completed.
 - [x] Add additional stories for existing components.
 - [x] Create stories for components that don't have stories yet. (PetCallToAction and PetHeroImage)
-- [ ] Create an about page.
-- [ ] Create three more components and stories for them for your about page. (SecondaryImage, PetAboutText, and PetCard)
-- [ ] Add PropTypes for the props of all components so storybook can find them.
+- [x] Create an about page.
+- [x] Create three more components and stories for them for your about page. (SecondaryImage, PetAboutText, and PetCard)
+- [x] Add PropTypes for the props of all components so storybook can find them.
 
 ## Mockup Figma
 

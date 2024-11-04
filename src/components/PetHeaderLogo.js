@@ -18,7 +18,7 @@ export default function PetHeaderLogo(props) {
   );
 }
 
-PetHeaderLogo.propTypes = {
+PetHeaderLogo.PropTypes = {
   logoSrc: PropTypes.string.isRequired,
   brandName: PropTypes.string.isRequired,
 };

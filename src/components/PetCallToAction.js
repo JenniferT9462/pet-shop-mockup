@@ -8,6 +8,6 @@ export default function PetCallToAction(props) {
   );
 }
 
-PetCallToAction.propTypes = {
+PetCallToAction.PropTypes = {
   ctaText: PropTypes.string.isRequired
 };

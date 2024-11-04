@@ -16,6 +16,6 @@ export default function SecondaryImage(props) {
 
 
 
-SecondaryImage.propTypes = {
+SecondaryImage.PropTypes = {
     src: PropTypes.string.isRequired,
   };

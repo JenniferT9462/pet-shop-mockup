@@ -19,6 +19,6 @@ export default function PetHeaderMenu(props) {
   );
 }
 
-PetHeaderMenu.propTypes = {
+PetHeaderMenu.PropTypes = {
   menuItems: PropTypes.arrayOf(PropTypes.string).isRequired,
 };

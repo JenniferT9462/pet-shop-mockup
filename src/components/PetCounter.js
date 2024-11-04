@@ -19,7 +19,7 @@ export default function PetCounter(props) {
   );
 };
 
-PetCounter.propTypes = {
+PetCounter.PropTypes = {
   images: PropTypes.arrayOf(PropTypes.string).isRequired,
   numberOfPets: PropTypes.number.isRequired,
 };
